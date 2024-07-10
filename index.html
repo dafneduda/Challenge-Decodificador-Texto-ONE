@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <section class="container">
+            <h1>Decodificador</h1>
+            <textarea id="inputText" placeholder="Digite seu texto"></textarea>
+            <h4>! Apenas letras minúsculas e sem acento.</h4>
+            <div class="buttons">
+                <button id="encryptButton">Criptografar</button>
+                <button id="decryptButton">Descriptografar</button>
+            </div>
+        </section>
+        <section class="container__results">
+            <div id="messageContainer">
+                <img src="/assets/image.png" alt="uma menina ajoelhada segurando uma lupa" id="placeholderImage">
+                <p id="placeholderMessage">Nenhuma mensagem encontrada.<br> <br>Digite um texto que você deseja
+                    criptografar ou descriptografar.</p>
+            </div>
+            <textarea id="outputText" placeholder="Resultado..." readonly style="display: none;"></textarea>
+        </section>
+        <script src="script.js"></script>
+        <footer class="rodape">
+            <p>Desenvolvido por Dafne Duda</p>
+        </footer>
+    </main>
+</body>
+
+</html>
